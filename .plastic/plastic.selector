@@ -1,4 +1,0 @@
-repository "2025 Game 240 Prototype/2025-2_SwissArmySuit@14569619902469@cloud"
-  path "/"
-    br "/main"
-    co "/main"

@@ -19,5 +19,17 @@ public class MusicBehavior : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        backmusic = GetComponent<AudioSource>();
     }
+    
+    public void SetVolume(float volume)
+    {
+        backmusic.volume = volume;
+    }
+
+    public float GetVolume()
+    {
+        return backmusic.volume;
+    }
+    
 }

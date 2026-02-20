@@ -1060,7 +1060,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 99f45dc797461da4db7109663228cfb3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2564,19 +2564,24 @@ MonoBehaviour:
   dialogue:
     name: Mc Qruver Admin
     sentences:
-    - Suit Test is simple.
-    - 'Blue pad will be at specific point.
+    - The suit test is simple.
+    - 'Blue pad will be at specific location.
 
-      You have to get in there fast as
+      You must reach it as fast as
       possible.'
-    - "This Test result will show \nhow our new product is perfect."
-    - "As you see the result board, we set a goal time. \nIf you get in faster, it
-      will be good for us."
-    - You can also retry to shorten the time.
-    - Also there are 3 amazing abilities you can test it.
-    - 'You will know how each abilities are different. '
-    - WASD to move, Space to Jump, R to Restart stage.
-    - Now it's up to you. Good Luck.
+    - "The test results will demonstrate \nhow effective our new product is."
+    - 'A target time is shown on the board.
+
+      Finish faster to benefit us.'
+    - You can retry the test to achieve a better time.
+    - There are also three unique abilities for you to test.
+    - 'You will discover how each ability
+
+      differs from the others.'
+    - 'Use WASD to move, Space to Jump,
+
+      and R to restart the stage.'
+    - "Now it's up to you. \nGood Luck."
   tutorialDialogueManager: {fileID: 532294607}
 --- !u!114 &532294607
 MonoBehaviour:
